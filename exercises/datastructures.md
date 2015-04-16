@@ -35,3 +35,28 @@ What needs to be changed to make this work on an array of Strings?
 
 Write a method called `canRentACar` that takes the Pod HashMap as a parameter and returns whether or not the Pod can rent a car. If one or more studetns is over 25, it should return `true`. If no one in the Pod is over 25, it should return `false`.
 
+###Exercises++
+
+####5. wordsWithoutList
+
+Given an array of strings and an integer, write a method that return a an ArrayList where all the strings of the given length are omitted.
+
+```
+wordsWithoutList({"a", "bb", "b", "ccc"}, 1) → {"bb", "ccc"}
+wordsWithoutList({"a", "bb", "b", "ccc"}, 3) → {"a", "bb", "b"}
+wordsWithoutList({"a", "bb", "b", "ccc"}, 4) → {"a", "bb", "b", "ccc"}
+```
+
+####6. How many clumps?
+
+Say that a "clump" in an ArrayList is a series of 2 or more adjacent elements of the same value. Write a method that returns the number of clumps in the given ArrayList.
+
+```
+countClumps({1, 2, 2, 3, 4, 4}) → 2
+countClumps({1, 1, 2, 1, 1}) → 2
+countClumps({1, 1, 1, 1, 1}) → 1
+```
+
+####7. Sorting sentences
+
+Write a method that takes a String sentence, breaks it up into an ArrayList of Strings (one word per ArrayList element), and prints out the words in alphabetical order.
